@@ -21,9 +21,9 @@ train:
   data_dir: ${root_dir}/data
 
   # task configs
-  task: packing-boxes-pairs-seen-colors
-  agent: two_stream_full_clip_lingunet_lat_transporter
-  n_demos: 1000
+  task: stack-block-pyramid-seq-seen-colors
+  agent: clip_lingunet_transporter
+  n_demos: 200
   n_steps: 201000 # use 601000 for multi-task models
 
   # hyper params
